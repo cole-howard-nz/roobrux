@@ -1,4 +1,3 @@
-
 def shift(char, shift_amount)
     uppers = ('A'..'Z').to_a
     lowers = ('a'..'z').to_a
@@ -7,7 +6,6 @@ def shift(char, shift_amount)
 end
 
 def caesar_cipher(user_input, shift_amount)
-    cipher = ""
     user_input
         .chars
         .map { |char| 
